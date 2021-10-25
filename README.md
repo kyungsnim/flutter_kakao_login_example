@@ -1,16 +1,13 @@
-# flutter_kakao_login_example
+# 카카오 로그인 예제
 
-A new Flutter project.
+## Flutter 개발환경
+[✓] Flutter (Channel stable, 2.5.2, on macOS 11.4 20F71 darwin-x64, locale ko-KR)
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.2)
+[✓] Xcode - develop for iOS and macOS
+[✓] Chrome - develop for the web
+[✓] Android Studio (version 2020.3)
+[✓] VS Code (version 1.51.1)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 구현 기능 요약
+1. Only kakao login : 단순 카카오 로그인 동작 방식만 수행하도록 구현 (카카오 로그인 웹뷰)
+2. Kakao login with firebase & auto login : 카카오 로그인 이후 정보 저장(Firebase) 그리고 앱 실행시 자동 로그인이 되도록 구현
