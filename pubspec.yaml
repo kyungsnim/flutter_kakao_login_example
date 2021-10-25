@@ -1,0 +1,41 @@
+name: flutter_kakao_login_example
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 카카로 로그인을 위한 필수 패키지
+  kakao_flutter_sdk: ^0.7.0
+  dio: ^4.0.0
+  json_annotation: ^4.0.1
+  package_info_plus: ^1.0.4
+  platform: ^3.0.0
+  shared_preferences: ^2.0.5
+
+  # 자동 로그인 용도
+  flutter_secure_storage: ^4.2.1
+
+  # Firebase 사용자 정보 저장 용도
+  firebase_core: ^1.8.0
+  cloud_firestore: ^2.5.4
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/google_icon.png
+    - assets/images/kakao_icon.png

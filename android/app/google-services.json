@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "675677019373",
+    "project_id": "kakao-login-e",
+    "storage_bucket": "kakao-login-e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675677019373:android:27169c601ffe2342e000e4",
+        "android_client_info": {
+          "package_name": "com.example.flutter_kakao_login_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675677019373-gr40ra3qu8s18ustskoegnfc280a0uqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA247hleiSgUa40SZw2Lj_JLNd_Wy_yXYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675677019373-gr40ra3qu8s18ustskoegnfc280a0uqn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "675677019373-in9gtnvtkhab79td81nqc36l0d1kjmop.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterKakaoLoginExample"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
